@@ -1,1 +1,51 @@
 /* All styles for your Card Components live here */
+
+.card--container {
+    width: 600px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin-left: 130px;
+}
+
+.card--container a {
+    text-decoration: none;
+}
+
+.card--banner {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card--content {
+    padding: 0 10px;
+    color: black;
+}
+
+.card--content-title {
+    font-weight: bold;
+}
+
+.card--content-react {
+    color: #a6a6a6;
+}
+
+.head--container-wrap {
+    display: flex;
+}
+
+.header--container-components {
+    width: 600px;
+}
+
+.header--title h2 {
+    margin-top: 5px;
+}
+
+.header--title span {
+    color: #a6a6a6;
+}
+
+.header--content p {
+    margin-bottom: 0;
+}
