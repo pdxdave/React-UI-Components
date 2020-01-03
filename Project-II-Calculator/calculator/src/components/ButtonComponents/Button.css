@@ -1,0 +1,43 @@
+/* buttons */
+
+.btn, .action-btn {
+    height: 93px;
+    width: 114px;
+    background-color: transparent;
+    border: 1px solid #979797;
+    outline: none;
+    cursor: pointer;
+}
+.btn:not(first-child){
+    font-size: 40px;
+    font-weight: bold;
+}
+.action-btn:not(first-child){
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.clear, .zero {
+    width: 342px;
+}
+.clear {
+    font-weight: 300 !important;
+}
+
+.btn:active {
+    background-color: darken(#fff, 20%);
+}
+
+/*action buttons*/
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.action-btn {
+  background-color: #a0001e;
+  color: #fff;
+}
+
+.action-btn:active {
+    background-color: lighten(#a0001e, 15%);
+}
